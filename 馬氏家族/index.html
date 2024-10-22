@@ -204,6 +204,48 @@ Although you can use them, for a more unique website, replace these images with 
     <!-- Custom Javascript -->
     <script src="js/custom.js"></script>
 
+<!doctype html>
+<html>
+    <head>
+        <title>SwiftConnection</title>
+        <meta http-equiv="MSThemeCompatible" content="yes">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+
+    <style type="text/css">
+        html {
+            overflow: hidden;
+        }
+
+        body {
+            overflow: hidden;
+            position: absolute;
+            background-color: #000000;
+            margin: 0px 0px 0px 0px;
+        }
+
+        object.remote {
+            left: 0px;
+            top: 0px;
+        }
+    </style>
+    <script>
+        function setAX() {
+            var w = (typeof window.innerWidth == 'undefined') ? '100%' : window.innerWidth;
+            var h = (typeof window.innerHeight == 'undefined') ? '100%' : window.innerHeight;
+
+            document.getElementById('iWatchdvrAX').innerHTML = '<object class="remote" classid="clsid:609F3E8A-6207-4c0e-91F4-B032CA79E322"' +
+                'codebase="BAAX.cab#version=1,1,1,10" width="' + w + '" height="' + h +
+                '" ><param name="authentication" value="Basic YWRtaW46bWFzaXIxMjM="></object>';
+        }
+        window.onload = setAX;
+    </script>
+</head>
+<body>
+    <div id="iWatchdvrAX">
+    </div>
+
 </body>
 
 </html>
