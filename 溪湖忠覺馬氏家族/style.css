@@ -11,7 +11,7 @@ body,html {
     height: 100%;
     overflow: hidden;
     position: relative;
-    background-image: url(images/concert.jpg);
+    background: url(images/concert.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -51,11 +51,3 @@ body,html {
  nav li:hover nav.dropdown {
        display: block;    
  }
-*
- h2 {
-    text-shadow: 3px 10px 10px rgb(48, 33, 222);
-    margin-top: 170px;
-    margin-left: 180px;
-    padding: 20px 25px;
-    font-size: 50px; 
-    }
