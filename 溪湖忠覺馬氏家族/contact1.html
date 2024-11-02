@@ -9,6 +9,7 @@
     <head>
         <title>照片園地</title>
     </head> 
+    
     <body>
        <h1>照片園地</h1>
         <nav>
@@ -21,14 +22,11 @@
            </nav>  
         </nav>
         </body>
-       <head> 
-      <h3>＝鼠標移到圖片中,按住左鍵不放,圖片會自動放大＝</h3>
-      <meta charset="UTF-8">
-      <style type="text/css">
-        img:active {
-          margin: 100px;
-          transform: scale(2, 2);
-        }
+       
+        <body> 
+      
+       <style>
+       
         h1 {
           text-shadow: 3px 10px 10px rgb(48, 33, 222);
           margin-left: 60px;
@@ -46,56 +44,82 @@
              -text-shadow: 3px 10px 10px rgb(48, 33, 222);
              font-size: 20px;
              margin-left: 100px;
-           }
+            }
          hr {
             margin-top: 20px;
             }                                            
-        </style>                                  
-       <body>                                                                                 
-      <style>
-        img {
-            width: 220px;
-            height: 300px;
-            border-radius: 4px;
-            box-shadow: 0 0 1px 1px gray;
-            margin-left: 40px;
-         }  
-        </style> 
-        <img src="images/1.jpg">
-        <img src="images/2.jpg">
-        <img src="images/3.jpg">
-        <img src="images/4.jpg">
-        <img src="images/5.jpg">
-        <img src="images/6.jpg">
-        <img src="images/7.jpg">
-        <img src="images/8.jpg">
-        <img src="images/9.jpg">
-        <img src="images/10.jpg">
-        <img src="images/11.jpg">
-        <img src="images/12.jpg">
-        <img src="images/13.jpg">
-        <img src="images/14.jpg">
-        <img src="images/15.jpg">
-        <img src="images/16.jpg">
-        <img src="images/17.jpg">
-        <img src="images/18.jpg">
-      <div>
-        <head>
-        <style type="text/css">
-        .myDiv{                         
-          width: 300px;
-          height: 220px;
-          border-radius: 4px;
-          box-shadow: 0 0 1px 1px gray;
-        } 
-       </style>
-          <img class="myDiv": src="images/19.jpg">
-          <img class="myDiv": src="images/20.jpg">
-          <img class="myDiv": src="images/21.jpg">
-          <img class="myDiv": src="images/22.jpg">
-          <img class="myDiv": src="images/23.jpg">
-          <img class="myDiv": src="images/24.jpg">
-      </div>
+       
+        .container {
+            width: 80%;
+            padding: 20px;
+            margin: 46px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .box {
+            width: 300px;
+            margin: 0 5px;
+            box-shadow: 0 0 10px 2px rgba(0,0,0,1);
+            border-radius: 5px;
+            transition: 1s;
+        }
+        .box img {
+            display: block;
+            width: 100%;
+            border-radius: 5px;
+        }    
+        .box:hover {
+             transform: scale(1.4);
+             z-index: 2;    
+        }
+        .container1 {
+            width: 80%;
+            padding: 20px;
+            margin: -15px auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .box1 {
+            width: 300px;
+            margin: 0 5px;
+            box-shadow: 0 0 8px 2px rgba(0,0,0,1);
+            border-radius: 5px;
+            transition: 1s;
+        }
+        .box1 img {
+            display: block;
+            width: 100%;
+            border-radius: 5px;
+        }    
+        .box1:hover {
+             transform: scale(1.6);
+             z-index: 2;    
+        }
+    </style>
+      <body>
+        <div class="container">
+            <div class="box">
+                <img src="images/1.jpg">
+            </div>
+            <div class="box">
+                <img src="images/2.jpg">
+            </div>
+            <div class="box">
+                <img src="images/3.jpg">
+            </div>
+        </div>
+     </body>
+     <head>
+        <div class="container1">
+          <div class="box1">
+              <img src="images/19.jpg">
+          </div>  
+          <div class="box1">
+            <img src="images/20.jpg">
+          </div>   
+         </div>
     </head>
     <hr>
     <small>Copyright &copy; by 2024</small>
