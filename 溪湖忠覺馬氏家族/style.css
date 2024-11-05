@@ -45,10 +45,6 @@ body,html {
      text-align: center;
  }
  nav li a:hover {
-     width: 130px;
-     padding: 18px;
-     text-align: center;
-     text-decoration: none;
      border-radius: 50px;
      background: #2439d7;
      transform: scale(1.1);
