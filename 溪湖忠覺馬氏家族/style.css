@@ -40,8 +40,8 @@ body,html {
      display: block;
      padding: 20px 25px;
      font-size: 20px;
-     color: #fff;
-     text-decoration: none;
+     color: #f6f6f8;
+     font-weight: bold;     text-decoration: none;
      text-align: center;
  }
  nav li a:hover {
