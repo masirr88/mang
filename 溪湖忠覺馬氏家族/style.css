@@ -6,7 +6,7 @@ body,html {
     height: 100vh;
     font-family: sans-serif;
 }
-header {
+.section_top {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -21,7 +21,8 @@ header {
     margin: 0;
     font-family: roboto;
  }
-nav {
+ 
+ nav {
     list-style: none;
     -background-color: #b9eae4;
     text-align: center;
