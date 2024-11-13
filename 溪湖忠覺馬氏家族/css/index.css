@@ -1,11 +1,13 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0;    
     box-sizing: border-box;
 }
 body {
     width: 100%;
     height: 100vh;
+    overflow: hidden;
+    position: relative;    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +20,11 @@ body {
     align-items: center;  
 }
 .ring {
+    margin-top: 150px;
     width: 200px;
     height: 200px;
     border: 0px solid #011015;
-    border-radius: 50%;
+    border-radius: 90%;
     position: absolute;
 }
 .ring:nth-child(1) {
