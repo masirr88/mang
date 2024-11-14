@@ -20,7 +20,7 @@ body {
     align-items: center;  
 }
 .ring {
-    display: flex;
+    -display: flex;
     -margin-top: 80px;
     width: 200px;
     height: 200px;
