@@ -22,8 +22,8 @@ body,html {
     font-family: roboto;
  }
  
- nav {
-  margin-top: 6px;
+ -nav {
+    margin-top: 820px;
     list-style: none;
     -background-color: #b9eae4;
     text-align: center;
