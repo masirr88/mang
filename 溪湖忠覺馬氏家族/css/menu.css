@@ -111,7 +111,7 @@
     top: 50%;
     left: 50%;
     transform: translatex(-150%) translateY(-50%);
-    background-color: rgba(244, 244, 240, 0.9);
+    background-color: rgba(185, 206, 228, 0.9);
     transition: .6s;
     display: flex;
     justify-content: center;
