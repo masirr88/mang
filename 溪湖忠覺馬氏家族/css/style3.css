@@ -7,6 +7,7 @@
 body {
     font-family: "Sofia", sans-serif;    
     overflow-x: hidden;
+    background-color: #514c4c;
 }
 
 .container div {
