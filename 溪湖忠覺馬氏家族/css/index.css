@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    -background: #011015;
+    background: #4a4d4e;
 }
 .container {
     top: 0;
