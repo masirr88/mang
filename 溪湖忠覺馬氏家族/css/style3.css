@@ -50,9 +50,10 @@ body {
 }
 
 .container h2 {
-    color: rgb(218, 240, 14);
-    text-shadow: 3px 10px 10px rgb(238, 68, 6);
+    color: rgb(245, 81, 5);
+    -text-shadow: 3px 10px 10px rgb(238, 68, 6);
     font-size: 3.5rem;
+    text-shadow: 0 0 10px #dfff00, 0 0 20px #dfff00, 0 0 40px #dfff00, 0 0 80px #dfff00;
 }
 
 
