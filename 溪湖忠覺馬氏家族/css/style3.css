@@ -74,7 +74,7 @@ body {
 }
 
 .effect {
-    margin-top: 200px;
+    margin-top: 150px;
     color: rgb(203, 15, 236);
     text-shadow: 3px 10px 10px rgb(232, 194, 8);
     font-size: 4rem;
@@ -262,5 +262,5 @@ label a:hover {
     animation-delay: 1.2s;
 }
 .bubbles img:nth-child(9) {
-    animation-delay: 1.4s;
+    animation-delay: 1.5s;
 }
