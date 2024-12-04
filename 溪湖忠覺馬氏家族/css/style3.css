@@ -27,6 +27,7 @@ body {
 }
 
 .bubbles img {
+    margin-top: -25px;
     width: 30px;
     animation: bubble 5s linear infinite;
 }
@@ -52,7 +53,7 @@ body {
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: 0;
+    -bottom: 0;
 }
 
 .container:before {
