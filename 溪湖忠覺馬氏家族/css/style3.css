@@ -267,15 +267,3 @@ label a:hover {
 .bubbles img:nth-child(10) {
     animation-delay: 3s;
 }
-.bubbles img:nth-child(11) {
-    animation-delay: 1.6s;
-}
-.bubbles img:nth-child(12) {
-    animation-delay: 0.8s;
-}
-.bubbles img:nth-child(13) {
-    animation-delay: 1.2s;
-}
-.bubbles img:nth-child(14) {
-    animation-delay: 1.5s;
-}
