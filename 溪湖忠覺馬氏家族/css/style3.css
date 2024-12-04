@@ -33,17 +33,17 @@ body {
 }
 @keyframes bubble {
     0%{
-        transform: translateY(-100vh) scale(0);
-        opacity: 0.1;
+        transform: translateY(-700vh) scale(0);
+        opacity: 0;
     }
     50%{
-        opacity: 0.8;
-    }
-    70%{
         opacity: 1;
     }
+    70%{
+        opacity: 2;
+    }
     100%{
-        transform: translateY(0vh) scale(1.2);
+        transform: translateY(1000px) scale(1.2);
         opacity: 0;
     }
 }
