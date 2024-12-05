@@ -33,7 +33,7 @@ body {
 }
 @keyframes bubble {
     0%{
-        transform: translateY(-100px) scale(0);
+        transform: translateY(-700px) scale(0.01);
         opacity: 0;
     }
     50%{
@@ -43,8 +43,8 @@ body {
         opacity: 2;
     }
     100%{
-        transform: translateY(860px);
-        opacity: 0;
+        transform: translateY(850px);
+        opacity: 4;
     }
 }
 .bubbles {
