@@ -278,7 +278,7 @@ label a:hover {
     display: flex;
     justify-content: center;   
     align-items: center;
-    background-color: rgba(59, 57, 83, 0.75);
+    background-color: rgba(0, 0, 2, 0.75);
     border-radius: 20px;
     overflow: hidden;
  }
