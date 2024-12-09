@@ -269,7 +269,8 @@ label a:hover {
 }
 
 .box {
-    margin-left: 33.5%;
+    left: 50%;
+    transform: translate(-50%);
     margin-top: 2%;
     position: relative;
     width: 220px;
