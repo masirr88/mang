@@ -278,7 +278,7 @@ label a:hover {
     display: flex;
     justify-content: center;   
     align-items: center;
-    background-color: rgba(0, 0, 2, 0.75);
+    background-color: rgba(5, 5, 5, 0.75);
     border-radius: 20px;
     overflow: hidden;
  }
@@ -287,7 +287,7 @@ label a:hover {
     position: relative;
     z-index: 2;
     color: rgb(45, 39, 28);
-    text-shadow: 2px 2px 20px 40px rgb(19, 15, 15);
+    text-shadow: 2px 2px 20px 40px rgb(238, 241, 29);
     font-size: 2.5em;
  }
 
@@ -323,7 +323,7 @@ label a:hover {
    position: absolute;
    inset: 4px;
    border-radius: 16px;
-   background: #a2a5b1;
+   background: #b2d7ec;
    z-index: 1;
  }
 
