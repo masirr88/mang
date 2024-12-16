@@ -149,7 +149,6 @@
 
 .menu div div ul li a:hover {
     border-radius: 10px; 
-    background-image: linear-gradient(315deg, #ee0ec1 0%, #262fdb 74%);
+    background-color: #b305f2;
 }
-
 
