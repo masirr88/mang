@@ -173,8 +173,8 @@ label a:hover {
     transform: translate(-50%);
     margin-top: 2%;
     position: relative;
-    width: 220px;
-    height: 70px;
+    width: 410px;
+    height: 80px;
     display: flex;
     justify-content: center;   
     align-items: center;
