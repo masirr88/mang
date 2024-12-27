@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100dvh;
+    background-color: #303030;
+    background-image: url(./images/concert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: family=Sofia;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(32, 32, 32, .7);
+    border-bottom: #0f0f0f3e 2px solid;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+nav li {    
+    height: 64px;    
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(240, 240, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-drag: none;
+    user-select: none;
+    transition: background-color .2s ease, text-decoratio .1s ease-out;
+}
+
+nav ul a:not(.logo):hover {
+    background-color: #12c6e63e;
+    text-decoration: underline solid #caf204 2px;
+    text-underline-offset: 6px;
+    transform: translateY(1px);
+    transition: 0.6s ease;
+}
+
+.logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(241, 102, 9);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;    
+    right: -100%;
+    flex-direction: column;
+    height: 100dvh;
+    max-width: 300px;
+    display: block;
+    z-index: 900;
+    background-color: #24242442;   
+    transition: 0.6s ease-out; 
+}
+
+.sidebar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: inherit;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+}
+
+.close-menu {
+    cursor: pointer;
+    justify-self: end;
+    transition: 0.6s ease;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.open-menu {
+    cursor: pointer;
+    display: none;
+    transition: 0.6s ease-out;
+}
+
+.open-menu.hidden {
+    opacity: 0;
+}
+
+@media screen and (max-width: 915px) {
+.mobile{
+    display: none;
+  }
+.open-menu {
+    display: flex;
+}   
+}
+
+@media screen and (min-width: 916px) {
+.sidebar.active {
+    display: none;
+}
+}
