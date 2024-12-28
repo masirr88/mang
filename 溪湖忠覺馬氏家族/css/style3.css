@@ -227,6 +227,8 @@ label a:hover {
    z-index: 1;
  }
 
-
-
+.effect {
+    text-align: center;
+    animation:blink 1s infinite;
+}
 
