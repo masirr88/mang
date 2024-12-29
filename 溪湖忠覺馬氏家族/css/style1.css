@@ -58,7 +58,7 @@ nav ul a:not(.logo):hover {
 }
 
 .logo {
-    -margin-right: -20%;
+    margin-right: -10%;
     font-size: 2.2em;
     font-weight: bold;
     color: rgb(234, 84, 9);
@@ -111,7 +111,7 @@ nav ul a:not(.logo):hover {
     opacity: 0;
 }
 
-@media screen and (max-width: 1055px) {
+@media screen and (max-width: 935px) {
 .mobile{
     display: none;
   }
@@ -120,7 +120,7 @@ nav ul a:not(.logo):hover {
 }   
 }
 
-@media screen and (min-width: 1056px) {
+@media screen and (min-width: 936px) {
 .sidebar.active {
     display: none;
 }
