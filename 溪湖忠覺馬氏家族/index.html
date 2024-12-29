@@ -67,39 +67,30 @@
     }
     .bgimage {
     position: relative;
-    width: 100vw;
+    left: 0;
+    top: 0;    
+    width: 100%;
     height: 100vh;
-    background-image: url('concert.jpg');
+    background-image: url(concert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: bgchange 30s linear infinite;
+    animation: bgchange 16s ease-in-out infinite;
+    background-size: cover;
 }
 @keyframes bgchange {
-    0%{
-        background-image: url('concert.jpg');
-    }
-    12%{
-        background-image: url('concert.jpg'); 
-    }
-    24%{
-        background-image: url('concerta.jpg'); 
-    }
-    36%{
-        background-image: url('concerta.jpg'); 
-    }
-    48%{
-        background-image: url('concertb.jpg'); 
-    }
-    62%{
-        background-image: url('concertb.jpg'); 
-    }
+    0%,100%{
+        background-image: url(concert.jpg);
+    }   
+    25%{
+        background-image: url(concerta.jpg); 
+    }    
+    50%{
+        background-image: url(concertb.jpg); 
+    }        
     75%{
-        background-image: url('concertc.jpg'); 
-    }
-    88%{
-        background-image: url('concertc.jpg'); 
-    }
+        background-image: url(concertc.jpg); 
+    }    
 }   
     
     @keyframes blink {
