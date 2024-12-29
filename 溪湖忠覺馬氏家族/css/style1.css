@@ -34,7 +34,7 @@ nav li:first-child {
 }
 
 nav a {
-    margin-right: 20px;
+    margin-right: 15px;
     height: 100%;
     padding: 0 10px;
     font-size: 1.5rem;
@@ -66,7 +66,7 @@ nav ul a:not(.logo):hover {
 }
 
 .sidebar {  
-    margin-right: -20px;  
+    margin-right: -15px;  
     position: fixed;
     top: 0;    
     right: -100%;
