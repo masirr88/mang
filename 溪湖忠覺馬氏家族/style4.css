@@ -11,31 +11,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;      
-    animation: slide 40s linear infinite;     
+    animation: slide 40s infinite;     
 }
 @keyframes slide {
     0%,100%{
         background-image: url('concert.png');
     }
-    20%{
-        background-image: url('concert.png');
-    }
-    0%{
+    25%{
         background-image: url('concerta.png');
     }
-    40%{
-        background-image: url('concerta.png');
-    }
-    0%{
+    
+    50%{
         background-image: url('concertb.png');
     }
-    60%{
-        background-image: url('concertb.png');
-    }
-    0%{
+    
+    75%{
         background-image: url('concertc.png');
-    }
-    80%{
-        background-image: url('concertc.png');
-    }
-}
+    }  
+ }
