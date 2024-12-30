@@ -11,7 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;      
-    animation: slide 40s ease-in-out linear infinite;     
+    animation: slide 40s linear infinite;     
 }
 @keyframes slide {
     0%,100%{
