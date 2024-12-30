@@ -14,7 +14,7 @@
     animation: slide 40s infinite;     
 }
 @keyframes slide {
-    0%{
+    0%,100%{
         background-image: url('concert.png');
     }
     20%{
