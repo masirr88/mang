@@ -3,7 +3,7 @@
     padding: 0;    
 }
 .load {
-    animation: slide 16s;
+    animation: slide 2s;
 }
 .slider{   
     height: 100vh;
