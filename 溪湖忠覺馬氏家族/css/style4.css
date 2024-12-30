@@ -19,15 +19,15 @@
 }
 @keyframes slide {
     0%, 100%{
-        background-image: url(concert.jpg);
+        background-image: url(concert.png);
     }
     25%{
-        background-image: url(concerta.jpg);
+        background-image: url(concerta.png);
     }
     50%{
-        background-image: url(concertb.jpg);
+        background-image: url(concertb.png);
     }
     75%{
-        background-image: url(concertc.jpg);
+        background-image: url(concertc.png);
     }
 }
