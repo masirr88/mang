@@ -15,27 +15,27 @@
 }
 @keyframes slide {
     0%{
-        background-image: url(concert.jpg);
+        background-image: url(concert.png);
     }
     20%{
-        background-image: url(concert.jpg);
+        background-image: url(concert.png);
     }
     0%{
-        background-image: url(concerta.jpg);
+        background-image: url(concerta.png);
     }
     40%{
-        background-image: url(concerta.jpg);
+        background-image: url(concerta.png);
     }
     0%{
-        background-image: url(concertb.jpg);
+        background-image: url(concertb.png);
     }
     60%{
-        background-image: url(concertb.jpg);
+        background-image: url(concertb.png);
     }
     0%{
-        background-image: url(concertc.jpg);
+        background-image: url(concertc.png);
     }
     80%{
-        background-image: url(concertc.jpg);
+        background-image: url(concertc.png);
     }
 }
