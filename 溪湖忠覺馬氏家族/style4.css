@@ -12,7 +12,7 @@
     background-image: url('concert.png'); 
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;      
+    -background-position: center;      
     animation: slide 30s infinite;     
 }
 @keyframes slide {
