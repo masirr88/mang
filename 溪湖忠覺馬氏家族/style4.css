@@ -11,7 +11,7 @@
     background-color: rgb(64, 68, 87);
     background-image: url('concert.png'); 
     background-size: cover;
-    background-repeat: no-repeat;
+    -background-repeat: no-repeat;
     -background-position: center;      
     animation: slide 30s infinite;     
 }
