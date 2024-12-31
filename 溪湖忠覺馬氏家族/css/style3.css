@@ -27,7 +27,7 @@ body {
 }
 
 .bubbles img {
-    margin-top: -818px;
+    margin-top: -817px;
     width: 35px;
     animation: bubble 15s linear infinite;
 }
@@ -75,9 +75,9 @@ body {
 
 .effect {
     margin-top: -130px;
-    color: rgb(203, 15, 236);
+    font-weight: bold;    color: rgb(203, 15, 236);
     text-shadow: 3px 10px 10px #f5dc21;
-    font-size: 4rem;
+    font-size: 3rem;
     -text-shadow: 0 0 10px #dfff00, 0 0 20px #dfff00, 0 0 40px #dfff00, 0 0 80px #dfff00;
 }
 
