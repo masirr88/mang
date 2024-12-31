@@ -16,7 +16,7 @@
 }
 @keyframes slide {
      01%{
-        background-image: url('concert.jpg');
+        background-image: url('concert.png');
     }
     25%{
         background-image: url('concert.png');
