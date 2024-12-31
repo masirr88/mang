@@ -18,17 +18,26 @@
      01%{
         background-image: url('concert.png');
     }
-    25%{
+    24.5%{
         background-image: url('concert.png');
     }
-    25.01%{
+    37%{
+        background-image: url('concert.png');
+    }
+    37.01%{
         background-image: url('concerta.png');
     }
-    50%{
+    39.5%{
         background-image: url('concerta.png');
     }
-    50.01%{
+    52%{
+        background-image: url('concerta.png');
+    }
+    52.01%{
         background-image: url('concertb.png');
+    }
+    64.5%{
+        background-image: url('concertb.png');        
     }
     75%{
         background-image: url('concertb.png');        
@@ -36,7 +45,10 @@
     75.01%{
         background-image: url('concertc.png');                
     }
-    100%{
+    88.5%{
         background-image: url('concertc.png');
     }
+    100%{
+        background-image: url('concertc.png');
+    }    
  }
