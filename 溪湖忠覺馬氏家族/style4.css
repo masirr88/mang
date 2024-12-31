@@ -16,43 +16,49 @@
     animation: slide 30s infinite;     
 }
 @keyframes slide {
-     13%{
+      1%{
         background-image: url('concert.png');
     }
-    24.5%{
+    10%{
         background-image: url('concert.png');
     }
-    37%{
+    20%{
         background-image: url('concert.png');
     }
-    37.01%{
+    30%{
+        background-image: url('concert.png');
+    }
+    30.01%{
         background-image: url('concerta.png');
     }
-    39.5%{
+    40%{
         background-image: url('concerta.png');
     }
-    52%{
+    50%{
         background-image: url('concerta.png');
     }
-    52.01%{
+    60%{
+        background-image: url('concerta.png');
+    }
+    60.01%{
         background-image: url('concertb.png');
     }
-    64.5%{
+    70%{
         background-image: url('concertb.png');        
     }
-    75%{
+    80%{
         background-image: url('concertb.png');        
     }
-    75.01%{
+    90%{
+        background-image: url('concertb.png');        
+    }
+    90.01%{
         background-image: url('concertc.png');                
-    }
-    88.5%{
-        background-image: url('concertc.png');
     }
     100%{
         background-image: url('concertc.png');
-    } 
-    0.1%{
+    }    
+    01%{
         background-image: url('concert.png');
-    }
+    }   
   }
