@@ -50,5 +50,8 @@
     }
     100%{
         background-image: url('concertc.png');
-    }    
- }
+    } 
+    0.1%{
+        background-image: url('concert.png');
+    }
+  }
