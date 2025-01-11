@@ -14,10 +14,12 @@
     equal.addEventListener('click', function(e){
         if(screen.value === ''){
             screen.value = "";
-        }else{
+        }try{
             let answer = eval(screen.value);
             screen.value = answer;
-        }
+        }catch(error){            
+            screen.value = "錯誤！";            
+        }        
     })
 
     clear.addEventListener('click', function(e){
