@@ -114,7 +114,7 @@ nav ul a:not(.logo):hover {
     opacity: 0;
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 1000px) {
 .mobile{
     display: none;
   }
@@ -123,7 +123,7 @@ nav ul a:not(.logo):hover {
 }   
 }
 
-@media screen and (min-width: 926px) {
+@media screen and (min-width: 1001px) {
 .sidebar.active {
     display: none;
 }
