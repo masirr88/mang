@@ -28,7 +28,7 @@ body {
 
 .bubbles img {
     margin-top: -1135px;
-    width: 35px;
+    width: 40px;
     animation: bubble 15s linear infinite;
 }
 @keyframes bubble {
