@@ -69,8 +69,8 @@ nav ul a:not(.logo):hover {
 }
 
 .logo img {
-    margin-top: 4px;
-    margin-left: -15px;
+    margin-top: 2px;
+    margin-left: -4px;
     width: 300px;
     height: 60px;
 }
