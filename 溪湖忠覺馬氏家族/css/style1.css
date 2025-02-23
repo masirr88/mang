@@ -73,6 +73,7 @@ nav ul a:not(.logo):hover {
     margin-left: -4px;
     width: 280px;
     height: 65px;
+    cursor: pointer;
 }
 
 .sidebar {  
