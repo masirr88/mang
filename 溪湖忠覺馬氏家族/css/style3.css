@@ -172,7 +172,7 @@ label a:hover {
 .box {
     left: 50%;
     transform: translate(-50%);
-    margin-top: 4%;
+    margin-top: 2%;
     position: relative;
     width: 355px;
     height: 60px;
@@ -229,7 +229,7 @@ label a:hover {
  }
 
 .effect {
-    margin-top: -50px;
+    margin-top: 15%;
     text-align: center;
     animation:blink 1s infinite;
 }
