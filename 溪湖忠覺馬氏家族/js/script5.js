@@ -24,7 +24,7 @@ function newShell(){
     shell.y = 1;
     shell.xoff = (0.01 + Math.random() * 0.007) * (left ? 1: -1);
     shell.yoff = 0.01 + Math.random() * 0.007;
-    shell.size = Math.random() * 6 + 3;
+    shell.size = Math.random() * 9 + 4;
     shell.color = colors[Math.floor(Math.random() * colors.length )];
 
     shells.push(shell);
