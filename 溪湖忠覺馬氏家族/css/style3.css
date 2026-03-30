@@ -192,6 +192,64 @@ label a:hover {
     font-size: 2.2em;
  }
 
+ p {
+    margin-top: 35px; 
+    font-family: 'poppins', sans-serif; 
+    font-size: 2.5rem;
+    line-height: 1.7;
+    color: #fff;
+    font-weight: bolder;    
+           
+    font-size: clamp(1rem, 2.5vw + 1rem, 4rem);
+    line-height:  1.3;
+    text-align: center;
+    text-transform: uppercase;
+ }
+
+ @supports (background-clip: text) or
+    (-webkit-background-clip: text) {
+        p {
+    background-image:       
+    linear-gradient(
+    to right,
+    #14f339,
+    #007aff,
+    #f6ee00,
+    #007aff,
+    #14f339,
+    #ff6262,
+    #f6ee00,
+    #007aff,
+    #14f339
+    );
+
+    /* padding: 0.2rem;
+    border: 20px solid reg(255 255 255 / 50%);
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box; */
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+   --bg-size: 200%;
+    color: transparent;
+    background-size: var(--bg-size);
+    animation: animate 2s steps(5) infinite;
+    animation: animate 2s linear infinite;
+    animation: animate 2s ease infinite;
+ }
+
+ @keyframes animate {
+    frpm {
+        background-position: 0;
+    }
+    to {
+        background-position: 200%;
+    }
+ }
+
+
  .box::before {
     content: '';
     position: absolute;
