@@ -99,7 +99,7 @@ body {
 }    
 
 
-.container p {
+container p {
     margin-top: 10px;
     color: rgb(218, 240, 14);
     text-shadow: 3px 10px 10px rgb(238, 68, 6);
@@ -200,7 +200,7 @@ label a:hover {
     color: #fff;
     font-weight: bolder;    
            
-    font-size: clamp(1rem, 2.5vw + 1rem, 4rem);
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
     line-height:  1.3;
     text-align: center;
     text-transform: uppercase;
