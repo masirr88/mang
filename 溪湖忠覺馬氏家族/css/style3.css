@@ -98,16 +98,6 @@ body {
     text-shadow: 0 0 10px #dfff00, 0 0 20px #dfff00, 0 0 40px #dfff00, 0 0 80px #dfff00;
 }    
 
-
-container p {
-    margin-top: 10px;
-    color: rgb(218, 240, 14);
-    text-shadow: 3px 10px 10px rgb(238, 68, 6);
-    font-size: 3rem;
-}
-
-
-
 label ul {
     z-index: 200;
     position: absolute;
@@ -213,13 +203,13 @@ label a:hover {
     linear-gradient(
     to right,
     #14f339,
-    #007aff,
+    #ff00bf,
     #f6ee00,
-    #007aff,
+    #ff00aa,
     #14f339,
     #ff6262,
     #f6ee00,
-    #007aff,
+    #ff004c,
     #14f339
     );
 
