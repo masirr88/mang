@@ -202,15 +202,15 @@ label a:hover {
     background-image:       
     linear-gradient(
     to right,
-    #f3ac14,
+    #eeec74,
     #ff00bf,
     #f6ee00,
     #ff00aa,
-    #f3ac14,
+    #eeec74,
     #ff6262,
     #f6ee00,
     #ff004c,
-    #f3ac14
+    #eeec74
     );
 
     /* padding: 0.2rem;
@@ -225,9 +225,9 @@ label a:hover {
    --bg-size: 200%;
     color: transparent;
     background-size: var(--bg-size);
-    animation: animate 2s steps(5) infinite;
-    animation: animate 2s linear infinite;
-    animation: animate 2s ease infinite;
+    animation: animate 3s steps(5) infinite;
+    animation: animate 3s linear infinite;
+    animation: animate 3s ease infinite;
  }
 
  @keyframes animate {
