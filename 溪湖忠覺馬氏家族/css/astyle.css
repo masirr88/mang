@@ -169,7 +169,7 @@ ul a:hover {
 .nextprevArrows {
     position: absolute;
     top: 72%;
-    right: 37.2%;
+    right: 54%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
