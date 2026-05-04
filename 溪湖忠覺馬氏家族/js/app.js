@@ -7,7 +7,7 @@
     let thumbnail = document.querySelector('.thumbnail')
     let thumbnailItems = thumbnail.querySelectorAll('.item')
 
-    sliderList.appendChild(sliderItems[0])
+    
     thumbnail.appendChild(thumbnailItems[0])
   
     nextBtn.onclick = function() {
