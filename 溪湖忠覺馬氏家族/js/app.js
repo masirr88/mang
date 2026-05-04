@@ -34,8 +34,8 @@
 
     slider.addEventListener('animationend', function() {
         if(direction === 'next'){
-            slider.classList.remove('prev')
-        } else {
             slider.classList.remove('next')
+        } else {
+            slider.classList.remove('prev')
         }
     }, {once: true})
