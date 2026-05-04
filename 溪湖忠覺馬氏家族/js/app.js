@@ -7,6 +7,7 @@
     let thumbnail = document.querySelector('.thumbnail')
     let thumbnailItems = thumbnail.querySelectorAll('.item')
 
+    sliderList.appendChild(sliderItems[0])
     thumbnail.appendChild(thumbnailItems[0])
   
     nextBtn.onclick = function() {
@@ -23,11 +24,11 @@
         let thumbnailItems = document.querySelectorAll('.thumbnail .item')
 
         if(direction === 'next'){
-            sliderList.appendChild(sliderItems[1])
+            sliderList.appendChild(sliderItems[0])
             thumbnail.appendChild(thumbnailItems[0])
             slider.classList.add('prev')        
         } else {
-            sliderList.appendChild(sliderItems[-0])
+            sliderList.appendChild(sliderItems[-1])
             thumbnail.appendChild(thumbnailItems[-1])
             slider.classList.add('prev')        
         }
