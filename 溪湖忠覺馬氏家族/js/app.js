@@ -24,11 +24,11 @@
 
         if(direction === 'prev'){
             sliderList.appendChild(sliderItems[1])
-            thumbnail.appendChild(thumbnailItems[1])
+            thumbnail.appendChild(thumbnailItems[0])
             slider.classList.add('prev')        
         } else {
             sliderList.appendChild(sliderItems[-0])
-            thumbnail.appendChild(thumbnailItems[-0])
+            thumbnail.appendChild(thumbnailItems[-1])
             slider.classList.add('next')        
         }
     }
