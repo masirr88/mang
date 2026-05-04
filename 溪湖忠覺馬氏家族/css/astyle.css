@@ -44,10 +44,10 @@ header {
 .slider .list .item .content {
     position: absolute;
     top: 20%;
-    width: 1480px;
+    width: 1380px;
     max-width: 80%;
     left: 55%;
-    transform: translateX(-60%);
+    transform: translateX(-50%);
     padding-right: 55%;
     box-sizing: border-box;
     -color: #fc0ac7;
