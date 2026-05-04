@@ -14,7 +14,6 @@
         moveSlider('next')
     }
 
-
     prevBtn.onclick = function() {
         moveSlider('prev')
     }
@@ -26,10 +25,10 @@
         if(direction === 'next'){
             sliderList.appendChild(sliderItems[0])
             thumbnail.appendChild(thumbnailItems[0])
-            slider.classList.add('prev')        
+            slider.classList.add('next')        
         } else {
-            sliderList.appendChild(sliderItems[-0])
-            thumbnail.appendChild(thumbnailItems[-0])
+            sliderList.appendChild(sliderItems[-1])
+            thumbnail.appendChild(thumbnailItems[-1])
             slider.classList.add('prev')        
         }
     }
