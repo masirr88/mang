@@ -22,14 +22,14 @@
         let sliderItems = slider.querySelectorAll('.item') 
         let thumbnailItems = document.querySelectorAll('.thumbnail .item')
 
-        if(direction === 'prev'){
+        if(direction === 'next'){
             sliderList.appendChild(sliderItems[1])
             thumbnail.appendChild(thumbnailItems[0])
             slider.classList.add('prev')        
         } else {
             sliderList.appendChild(sliderItems[-0])
             thumbnail.appendChild(thumbnailItems[-1])
-            slider.classList.add('next')        
+            slider.classList.add('prev')        
         }
     }
 
