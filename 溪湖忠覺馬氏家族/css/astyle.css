@@ -174,11 +174,14 @@ ul a:hover {
 }
 
 .thumbnail .item .content .titl {
-    
+    height: 42px;  
+    width: 130px;
+    border-radius: 10px;
+    background-color: #2c3044;    
     font-weight: bold;
-    color: #4bf716;
+    -color: #4bf716;
     font-size: 2em;
-    text-shadow: 3px 10px 10px #02010c;
+    -text-shadow: 3px 10px 10px #02010c;
 }
 
 .thumbnail .item .content .titl .p {
