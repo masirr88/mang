@@ -181,6 +181,56 @@ ul a:hover {
     text-shadow: 3px 10px 10px #02010c;
 }
 
+.thumbnail .item .content .titl .p {
+    font-weight: bold;
+    color: #f716f7;
+    font-size: 2em;
+    -text-shadow: 3px 10px 10px #02010c;
+}
+
+ @supports (background-clip: text) or
+    (-webkit-background-clip: text) {
+        p {
+    background-image:       
+    linear-gradient(
+    to right,
+    #f17806,
+    #cbe66b,
+    #00f63e,
+    #f0cd0a,
+    #42d0f3,
+    #ecde14,
+    #11e964,
+    #f3e95b,
+    #09e27d
+    );
+
+    /* padding: 0.2rem;
+    border: 20px solid reg(255 255 255 / 50%);
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box; */
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+   --bg-size: 200%;
+    color: transparent;
+    background-size: var(--bg-size);
+    animation: animate 2s steps(5) infinite;
+    animation: animate 2s linear infinite;
+    animation: animate 2s ease infinite;
+ }
+
+ @keyframes animate {
+    frpm {
+        background-position: 0;
+    }
+    to {
+        background-position: 200%;
+    }
+ }
+
 .nextprevArrows {
     position: absolute;
     top: 87%;
