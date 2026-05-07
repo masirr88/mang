@@ -119,6 +119,7 @@ a {
     Padding: 0 10px;
     font-size: 2rem;
     font-weight: bold;
+    font-family: monospace;
     text-decoration: none;
     color: rgb(7, 16, 146);
     text-shadow: 3px 10px 10px rgb(6, 6, 12);
