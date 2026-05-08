@@ -161,19 +161,19 @@ ul a:hover {
     display: flex;
     justify-content: center;   
     align-items: center;   
-    height: 54px;  
+    height: 56px;  
     width: 148px;
     border-radius: 10px;
     background-color: #2c3044;
     font-weight: bold;    
-    font-size: 1.8em;
+    -font-size: 1.8em;
     -text-shadow: 3px 10px 10px #02010c;
 }
 
 .thumbnail .item .content .titl .p {      
     font-weight: bold;
     color: #f716f7;
-    font-size: 1.8em;
+    font-size: 2em;
     -text-shadow: 3px 10px 10px #02010c;
 }
 
