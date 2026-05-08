@@ -113,8 +113,8 @@ li:first-child {
 a {
     margin-top: 10PX;
     margin-right: 60%;
-    height: 80%;
-    width: 90PX;
+    height: 45px;
+    width: 120PX;
     border-radius: 20PX;
     Padding: 0 10px;
     font-size: 2rem;
