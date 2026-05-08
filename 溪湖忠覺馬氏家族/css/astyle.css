@@ -114,14 +114,12 @@ a {
     color: rgb(7, 16, 146);
     text-shadow: 3px 10px 10px rgb(6, 6, 12);           
 }
-}
 
 ul a:hover {           
-   background-color: #e6eceeef;    
+    background-color: #e6eceeef;    
     -text-underline-offset: 6px;
     transform: translateY(1px);
-    transition: 0.1s eas  
-}
+    transition: 0.1s ease;    
 
 .thumbnail {
     display: flex;
