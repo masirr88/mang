@@ -86,11 +86,12 @@ header {
 }
 
 ul a { 
-    padding: 4px 25px;      
+    line-height: 1.5em;
+    padding: 2px 25px;      
     margin-top: 5%;    
     -width: 120px;
     -height: 45px;
-    -display: flex;       
+    display: flex;       
     -align-items: center;   
     border-radius: 20px;    
     text-decoration: none;
@@ -105,7 +106,7 @@ ul a {
 ul {   
     margin-top: 8px; 
     list-style: none;
-    -display: flex;
+    display: flex;
     width: 100%;
 }
 
