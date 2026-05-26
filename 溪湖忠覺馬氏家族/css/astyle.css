@@ -127,7 +127,7 @@ ul a:hover {
     top: 50%;
     position: absolute;
     bottom: 50px;
-    left: 48.5%;
+    left: 50%;
     width: max-content;
     z-index: 100;
 }
@@ -222,7 +222,7 @@ ul a:hover {
 .nextprevArrows {
     position: absolute;
     top: 87%;
-    right: 51%;
+    right: 49%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
