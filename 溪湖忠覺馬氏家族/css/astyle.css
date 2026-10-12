@@ -19,8 +19,8 @@ header {
     align-items: center;
     position: relative;
     z-index: 100;
-
 }
+
 .slider {     
     width: 100vw;
     height: 100vh;    
