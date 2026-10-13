@@ -11,7 +11,7 @@ body{
 }
 
 header {
-    top: 4px;
+    top: 20px;
     width: 1140px;
     max-width: 80%;
     margin: auto;
@@ -227,8 +227,8 @@ ul a:hover {
 
 .nextprevArrows {
     position: absolute;
-    top: 75%;
-    right: 35%;
+    top: 82%;
+    right: 37%;
     z-index: 100;
     width: 300px;
     max-width: 30%;
